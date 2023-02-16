@@ -1,0 +1,29 @@
+[
+    {
+        "name": "test_configProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "test_configProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "test_configProduct",
+        "displayName": "test_configProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "${projectName}-${teamName}-test_config"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]

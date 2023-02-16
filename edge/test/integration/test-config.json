@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"${projectName}-${teamName}-test_config": {
+		"basepath": "/v1/test_config",
+		"product":"test_configProduct",
+		"app":"test_configApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}
