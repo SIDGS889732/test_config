@@ -25,6 +25,13 @@
         <LoadBalancer>
             <Server name="mockTarget"/>
         </LoadBalancer>
+        <Path>{TARGET.PATH}<Path>
+        <Properties>
+            <Property name="keepalive.timeout.millis">17000<Property>
+            <Property name="io.timeout.millis">17000<Property>
+            <Property name="connect.timeout.millis">17000<Property>
+            <Property name="success.codes">2xx,4xx,5xx<Property>
+        </Properties>
         <!--<URL>https://mocktarget.apigee.net</URL>-->
     </HTTPTargetConnection>
 </TargetEndpoint>
