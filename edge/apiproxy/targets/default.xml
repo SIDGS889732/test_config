@@ -25,7 +25,7 @@
         <LoadBalancer>
             <Server name="mockTarget"/>
         </LoadBalancer>
-        <Path>{TARGET.PATH}<Path>
+        <Path>{TARGET.PATH}</Path>
         <Properties>
             <Property name="keepalive.timeout.millis">17000</Property>
             <Property name="io.timeout.millis">17000</Property>
