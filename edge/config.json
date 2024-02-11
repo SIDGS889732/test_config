@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/Properties/Property[@name='keepalive.timeout.millis']",
+                            "value": 15000
+                        }
+                    ]
+                }
+            ]
+        }
+      ]
+}
